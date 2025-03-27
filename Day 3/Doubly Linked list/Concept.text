@@ -1,0 +1,53 @@
+**Doubly Linked List (DLL) Concept**
+
+A **Doubly Linked List (DLL)** is a type of linked list in which each node contains three components:
+1. **Data**: The actual value stored in the node.
+2. **Pointer to the Next Node (next)**: A reference to the next node in the list.
+3. **Pointer to the Previous Node (prev)**: A reference to the previous node in the list.
+
+### **Structure of a Node**
+Each node in a DLL consists of:
+```
+struct Node {
+    int data;
+    Node* next;
+    Node* prev;
+};
+```
+
+### **Features of Doubly Linked List**
+- Unlike a singly linked list, a DLL allows traversal in both forward and backward directions.
+- Insertion and deletion of nodes can be done more efficiently as compared to a singly linked list.
+- Requires extra memory for storing an additional pointer (prev).
+
+### **Operations on a Doubly Linked List**
+1. **Insertion**
+   - At the beginning
+   - At the end
+   - At a specific position
+2. **Deletion**
+   - From the beginning
+   - From the end
+   - From a specific position
+3. **Traversal**
+   - Forward Traversal
+   - Backward Traversal
+4. **Searching**
+   - Searching for a particular node in the list.
+
+### **Advantages of Doubly Linked List**
+- Easier to implement bidirectional traversal.
+- More efficient deletion operations compared to a singly linked list.
+- Can be used to create more complex data structures like stacks and queues.
+
+### **Disadvantages of Doubly Linked List**
+- Requires extra memory to store the prev pointer.
+- More complex than a singly linked list.
+
+### **Applications of Doubly Linked List**
+- Implementation of LRU (Least Recently Used) Cache.
+- Navigation systems (forward and backward movement in a browser or music player).
+- Undo and redo operations in applications.
+
+A **Doubly Linked List** is a powerful data structure that balances efficient insertion and deletion with ease of traversal, making it useful in many real-world applications.
+

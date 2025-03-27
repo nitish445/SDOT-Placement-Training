@@ -1,0 +1,43 @@
+Data Structure
+1) Linear DS
+2) Non- Linear DS
+
+1) Linear DS
+    i) Static DS
+        a) Array
+    
+    ii) Dyanamic DS
+        a) Queue
+        b) Stack
+        c) Linked List
+
+2) Non- Linear DS
+    i) Tree
+    ii) Graph
+
+
+
+-------------------------------------------------
+Comparison of Arrays vs. Linked Lists
+
+1. Storage and Memory Allocation:
+   - Arrays:
+       • Stored in contiguous memory locations.
+       • Memory is allocated at compile time.
+       • Fixed in size.
+   - Linked Lists:
+       • Not stored in contiguous memory locations.
+       • Memory is allocated at run time.
+       • Dynamic in size.
+
+2. Memory Usage:
+   - Arrays: Use less memory overall.
+   - Linked Lists: Use more memory because each node stores both the data and a pointer (address) to the next node.
+
+3. Element Access:
+   - Arrays: Elements can be accessed directly (random access).
+   - Linked Lists: Accessing an element requires traversal from the beginning of the list.
+
+4. Insertion and Deletion Operations:
+   - Arrays: Insertion and deletion operations are generally slower because elements may need to be shifted.
+   - Linked Lists: Insertion and deletion operations are faster since only pointers need to be updated.

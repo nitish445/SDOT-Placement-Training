@@ -1,0 +1,21 @@
+A linked list is a dynamic data structure made up of nodes. Each node contains data and a pointer to the next node, allowing efficient insertions and deletions.
+
+Types of Linked Lists:
+
+1. Singly Linked List:
+   - Each node contains data and a pointer to the next node.
+   - Diagram:
+     [Head] -> [Data | Next] -> [Data | Next] -> [Data | Next] -> None
+
+2. Doubly Linked List:
+   - Each node contains data, a pointer to the next node, and a pointer to the previous node.
+   - Diagram:
+     None <- [Data | Prev, Next] <-> [Data | Prev, Next] <-> [Data | Prev, Next] -> None
+
+3. Circular Linked List:
+   - The last node points back to the first node, forming a circle.
+   - Diagram (Singly Circular):
+     [Head] -> [Data | Next] -> [Data | Next] -> [Data | Next]
+         ^                                   |
+         |___________________________________|
+
