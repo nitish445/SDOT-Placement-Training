@@ -1,0 +1,82 @@
+**Stack Data Structure
+
+## **1. Introduction to Stack**
+A **stack** is a linear data structure that follows the **Last In, First Out (LIFO)** principle. This means that the last element added is the first one to be removed.
+
+### **Real-Life Analogy**
+A **stack of plates** in a cafeteria:
+- You place a plate on top (**Push**).
+- You remove the top plate first (**Pop**).
+- You can only access the top plate (**Peek**).
+
+---
+
+## **2. Key Operations in a Stack**
+1. **Push** – Adds an element to the top of the stack.
+2. **Pop** – Removes the top element from the stack.
+3. **Peek (Top)** – Returns the top element without removing it.
+4. **isEmpty** – Checks if the stack is empty.
+5. **isFull** – Checks if the stack is full (for fixed-size stacks).
+
+---
+
+## **3. Types of Stacks**
+### **A. Simple Stack**
+A standard stack that follows the **LIFO** principle.
+
+### **B. Doubly Ended Stack (Deque)**
+Allows insertion and deletion from both ends.
+
+### **C. Multiple Stacks**
+Multiple stacks can be implemented within a single array.
+
+---
+
+## **4. Implementation of Stack**
+A stack can be implemented using:
+- **Arrays** (Fixed-size stack)
+- **Linked Lists** (Dynamic stack)
+- **Dynamic Memory Allocation** (Flexible size)
+
+---
+
+## **5. Stack vs Other Data Structures**
+| Feature  | Stack (LIFO) | Queue (FIFO) | Linked List |
+|----------|------------|------------|------------|
+| **Insertion Order** | Last in, First out | First in, First out | Any position |
+| **Access** | Only the top element | Only the front element | Any node |
+| **Usage** | Function calls, undo operations | Task scheduling | Dynamic storage |
+
+---
+
+## **6. Applications of Stack**
+- **Function Call Management** – Manages recursive function calls.
+- **Undo/Redo Operations** – Used in text editors and graphics applications.
+- **Backtracking Algorithms** – Used in solving mazes and puzzles.
+- **Expression Evaluation** – Converts infix expressions to postfix/prefix.
+- **Browser History Navigation** – Stores visited pages and allows back navigation.
+
+---
+
+## **7. Advantages & Disadvantages of Stack**
+### **Advantages**
+- **Efficient Memory Usage** – No need for shifting elements.
+- **Easy to Implement** – Simple operations with minimal overhead.
+- **Fast Access** – Quick retrieval of the top element.
+
+### **Disadvantages**
+- **Limited Access** – Can only access the top element.
+- **Fixed Size (Array Implementation)** – Requires predefined size, leading to overflow.
+
+---
+
+## **8. Stack Variations**
+1. **Monotonic Stack** – Used in problems requiring **minimum/maximum** elements in a sequence.
+2. **Two Stacks in One Array** – Space-efficient method of implementing multiple stacks in a single array.
+3. **Persistent Stack** – Used in functional programming for **immutable** stack operations.
+
+---
+
+## **9. Stack in Memory Management**
+- **Call Stack** – Manages function calls and returns in programming languages.
+- **Stack Overflow** – Occurs when too many function calls fill the stack memory.
