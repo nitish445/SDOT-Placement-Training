@@ -1,0 +1,69 @@
+**Tree Concept and Traversal Techniques**
+
+### **What is a Tree?**
+A tree is a non-linear data structure that consists of nodes. The topmost node is called the **root**, and each node contains data and links (edges) to its child nodes. Trees are widely used in various applications such as databases, file systems, and artificial intelligence.
+
+### **Basic Terminology**
+- **Node**: A fundamental part of the tree containing data.
+- **Root**: The topmost node of the tree.
+- **Edge**: A connection between two nodes.
+- **Parent**: A node having child nodes.
+- **Child**: A node derived from another node.
+- **Leaf**: A node without children.
+- **Depth**: The level of a node from the root.
+- **Height**: The longest path from a node to a leaf.
+
+### **Tree Representation**
+```
+        A  (Root)
+       / \
+      B   C
+     / \   \
+    D   E   F
+```
+
+### **Tree Traversal Techniques**
+Tree traversal refers to visiting each node of the tree systematically. There are three primary types:
+
+#### **1. Inorder Traversal (Left, Root, Right)**
+It visits the left subtree, then the root node, and finally the right subtree.
+
+Example:
+```
+        A
+       / \
+      B   C
+     / \   \
+    D   E   F
+```
+**Output (Inorder Traversal)**: D → B → E → A → C → F
+
+#### **2. Preorder Traversal (Root, Left, Right)**
+It visits the root node first, then the left subtree, and finally the right subtree.
+
+Example:
+```
+        A
+       / \
+      B   C
+     / \   \
+    D   E   F
+```
+**Output (Preorder Traversal)**: A → B → D → E → C → F
+
+#### **3. Postorder Traversal (Left, Right, Root)**
+It visits the left subtree, then the right subtree, and finally the root node.
+
+Example:
+```
+        A
+       / \
+      B   C
+     / \   \
+    D   E   F
+```
+**Output (Postorder Traversal)**: D → E → B → F → C → A
+
+### **Conclusion**
+Trees are an essential data structure with various traversal techniques. Understanding these traversals helps in efficient tree operations such as searching, inserting, and deleting nodes.
+
